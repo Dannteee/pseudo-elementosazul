@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap </title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--aca va el titulo-->
+<div class="container-fluid">
+   <div class="row">
+     <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 title">
+       <h2 class="titulo">Pseudo-elementos</h2>
+     </header>
+<!--a partir de aqui van los pseudoelementos-->
+<!--caja1-->
+     <section class="row">
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja1">
+          <div class="content">
+            <h1>::after</h1>
+            <p>Selecciona el elemento al que se puede aplicar estilo que aparece a continuación del contenido del elemento que lo origina.</p>
+            <p class="boring-text">Hola</p>
+            <p>Holiwis</p>
+            <p class="exciting-text">Adios</p>
+            <span class="ribbon">Mira primero la barra de la de abajo </span>
+            <p>No me lo van a creer luna se comio un 
+             <span tabindex="0" data-descr="un hueso de pollo">hueso</span>y eso es malo para su
+             <span tabindex="0" data-descr="porque le puede doler la panza">salud</span>.
+            </p>
+          </div>
+        </article>
+<!--caja2-->
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja2">
+          <div class="content">
+            <h1>::before</h1>
+            <p>Selecciona el elemento al que se puede aplicar estilo que aparece antes del contenido del elemento que lo origina.</p>
+          </div>
+          <ul>
+            <li>Buy milk</li>
+            <li>Take the dog for a walk</li>
+            <li>Exercise</li>
+            <li>Write code</li>
+            <li>Play music</li>
+            <li>Relax</li>
+          </ul>
+        </article>
+<!--caja3-->
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja3">
+          <div class="content">
+            <h1>::first-letter</h1>
+            <p>Selecciona la primera letra del elemento.</p>
+            <p class="p1">Querida Anne:</p>
+            <p class="p1">Ya que estamos por separarnos, tal vez para siempre, siento que debo confesar mis sentimientos, tú eres el objeto de mi afecto y mi deseo, tú y solo tú eres la guardiana de la llave de mi corazón. Por favor, no te asustes, no espero que correspondas, pero, no puedo sinceramente… No delatarme, no estoy comprometido, ni lo estaré, a menos que sea contigo Anne, mí Anne con una E, siempre has sido y siempre serás tú.</p>
+            <p class="p1">Con amor, Gilbert.</p>
+            <p class="p1">Posdata: gracias por el bolígrafo, buena suerte en Queens.</p>
+            
+          </div>
+        </article>
+<!--caja4-->
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja4">
+          <div class="content">
+            <h1>::first-line</h1>
+            <p>Selecciona la primera línea del elemento de contenido.</p>
+            <p class="p2">
+              Primera linea</p>
+              <p>En la radio, hay un pollito
+                En la radio, hay un pollito
+                El pollito pío, el pollito pío
+                El pollito pío, el pollito pío
+                El pollito pío, el pollito pío</p>
+          
+            <span class="s1">
+              En la radio, hay una gallina
+              En la radio, hay una gallina
+              Y la gallina coo, y el pollito pío
+              Y el pollito pío, y el pollito pío
+              Y el pollito pío, y el pollito pío
+            </span>
+          </div>
+        </article>
+<!--caja5-->
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja5">
+          <div class="content">
+            <h1>::grammar-error</h1>
+            <p>SSelecciona una parte del documento que contiene un error de gramática indicado por el navegador.</p>
+            <p class="p3">My friends is coming to the party tonight.</p>
+          </div>
+        </article>
+<!--caja6-->
+<!--no lo enetendi-->
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja6">
+          <div class="content">
+            <h1>::selection</h1>
+            <p>Selecciona la parte del documento que ha sido seleccionada.</p>
+          </div>
+        </article>
+<!--caja7-->
+<!--no lo enetendi-->
+        <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja7">
+          <div class="content">
+            <h1>::spelling-error</h1>
+            <p>Selecciona una parte del documento que contiene un error de ortografía indicado por el navegador.</p>
+          </div>
+        </article>
+<!--caja8-->
+          <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja8">
+             <div class="content">
+             <h1>::-moz-color-swatch</h1>
+             <p>representa el color seleccionado en un input de type="color".</p>
+             <input type="color" value="#de2020" />
+             </div>
+          </article>
+<!--caja9-->
+            <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja9">
+              <div class="content">
+              <h1>::-moz-progress-bar</h1>
+              <p>representa la barra de progreso dentro de un elemento. (La barra representa la cantidad de progreso que se ha hecho).</p>
+              <progress value="30" max="100">30%</progress>
+              <progress max="100">Indeterminate</progress>
+
+              </div>
+            </article>
+<!--caja10-->
+          <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja10">
+            <div class="content">
+            <h1>::-moz-range-progress</h1>
+            <p>El pseudoelemento CSS es una extensión de Mozilla que representa la parte inferior de la pista (es decir, el surco) en la que el indicador se desliza en forma de . Esta porción corresponde a valores más bajos que el valor actualmente seleccionado por el pulgar (es decir, perilla virtual)</p>
+            <input type="range" min="0" max="100" step="5" value="50" />
+            </div>
+          </article>
+<!--caja11-->
+          <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja11">
+            <div class="content">
+            <h1>::-webkit-inner-spin-button</h1>
+            <p>Se usa para diseñar la parte interna del botón giratorio de los elementos de entrada del selector de números.</p>
+            <input type="number" />
+            </div>
+          </article>
+<!--caja12-->
+          <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja12">
+            <div class="content">
+            <h1>::-webkit-meter-even-less-good-value</h1>
+            <p>elemento cuando el valor y los atributos óptimos se encuentran fuera del rango bajo-alto, pero en zonas opuestas. Para ilustrar, se aplica cuando valor < bajo < alto < óptimo o valor > alto > bajo > óptimo </p>
+            <meter min="0" max="10" value="5">Score out of 10</meter>
+            </div>
+          </article>
+<!--caja13-->
+          <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja13">
+            <div class="content">
+            <h1></h1>
+            <p></p>
+            </div>
+          </article>
+<!--caja14-->
+          <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja14">
+            <div class="content">
+            <h1></h1>
+            <p></p>
+            </div>
+          </article>
+<!--caja15-->
+          <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja15">
+            <div class="content">
+            <h1></h1>
+            <p></p>
+            </div>
+          </article>
+<!--caja16-->
+          <article class="col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 caja8">
+            <div class="content">
+            <h1></h1>
+            <p></p>
+            </div>
+          </article> 
+      </section>
+      <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

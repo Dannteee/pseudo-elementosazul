@@ -1,0 +1,159 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+/*apartir de aqui van las cajas*/
+h1{ 
+    font-family:fantasy;
+    font-size: 1rem;
+    text-align: center;
+}
+section{
+    background-color: rgb(255, 255, 255);
+}
+
+.content{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.caja1{
+    background-color: rgb(175, 207, 255); }
+    .exciting-text::after {
+     content: " <- BUENO,BUENO CHAO";
+     color: green;}
+    .boring-text::after {
+     content: " <- PORQUE GRITAS?";
+     color: red;}
+     .ribbon {
+     background-color: #ffffff;}
+    .ribbon::after {
+     content: "Quiero como unas salchipapas";
+     background-color: #00fcda;
+     border-color: rgb(255, 255, 255);
+     border-style: dotted;}
+     span[data-descr] {
+     position: relative;
+     text-decoration: underline;
+     color: rgb(0, 255, 213);
+     cursor: help;}
+     span[data-descr]:hover::after,
+     span[data-descr]:focus::after {
+     content: attr(data-descr);
+     position: absolute;
+     left: 0;
+     top: 24px;
+     min-width: 200px;
+     border: 1px #aaaaaa solid;
+     border-radius: 10px;
+     background-color: #ffffcc;
+     padding: 12px;
+     color: #000000;
+     font-size: 14px;
+     z-index: 1;
+}
+
+ 
+.caja2{
+    background-color: white}
+    li {
+     list-style-type: none;
+     position: relative;
+     margin: 2px;
+     padding: 0.5em 0.5em 0.5em 2em;
+     background: rgb(0, 238, 255);
+     font-family: sans-serif;}
+     li.done {
+     background: #CCFF99; }
+     li.done::before {
+     content: '';
+     position: absolute;
+     border-color: #009933;
+     border-style: solid;
+     border-width: 0 0.3em 0.25em 0;
+     height: 1em;
+     top: 1.3em;
+     left: 0.6em;
+     margin-top: -1em;
+     transform: rotate(45deg);
+     width: 0.5em;
+ }
+
+.caja3{
+    background-color: rgb(175, 207, 255); }
+    .p1::first-letter {
+    color: rgb(0, 247, 255);
+    font-size: 130%;
+}
+.caja4{
+    background-color: white}
+    .p2{
+     color: rgb(0, 238, 255);
+     text-transform: uppercase;
+     margin-left: 20px;
+     text-indent: 20px;
+}
+
+.caja5{
+    background-color: rgb(175, 207, 255);}
+    ::grammar-error {
+     text-decoration: underline red;
+     color: red;
+}
+
+.caja6{
+     background-color: white}
+.caja7{
+    background-color: rgb(175, 207, 255);
+}
+.caja8{
+    background-color: white}
+    input[type=color]::-moz-color-swatch {
+    border-radius: 10px;
+    border-style: none;
+}
+.caja9{
+   background-color: rgb(175, 207, 255);}
+   ::-moz-progress-bar {
+    background-color: rgb(19, 255, 196);}
+  :indeterminate::-moz-progress-bar {
+    width: 0;
+} 
+.caja10{
+    background-color: white}
+    input[type="range"]::-moz-range-progress {
+    background-color: green;
+    height: 1em;
+}
+
+.caja11{
+   background-color: rgb(175, 207, 255);}
+   input[type="number"]::-webkit-inner-spin-button {
+   cursor: pointer;
+}
+
+
+.caja12{
+    background-color: white}
+    meter::-webkit-meter-even-less-good-value {
+    box-sizing: border-box;
+    background: rgb(155, 37, 57);
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.caja13{
+   background-color: rgb(175, 207, 255);
+}
+.caja14{
+    background-color: white}
+.caja15{
+   background-color: rgb(175, 207, 255);
+}
+        
